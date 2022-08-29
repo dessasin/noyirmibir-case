@@ -1,0 +1,52 @@
+@import "../../Style/Colors.scss";
+#promo {
+    padding: 50px;
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    background-color: $asphalt;
+    h3 {
+        width: 50%;
+        font-weight: 700;
+        color: $white;
+        float: left;
+        font-size: 3em;
+        margin-bottom: 40px;
+        @media (max-width: 900px) {
+            margin-top: 40px;
+            width: 100%;
+        }
+    }
+    .content_button {
+        position: absolute;
+        right: 64px;
+        top: 64px;
+        @media (max-width: 900px) {
+            width: 100%;
+            top:754px;
+            left: 0px;
+        }
+        @media (max-width: 690px) {
+            top:750px;
+        }
+        @media (max-width: 640px) {
+            top:612px;
+        }
+        @media (max-width: 500px) {
+            top:612px;
+        }
+        @media (max-width: 380px) {
+            top:661px;
+        }
+    }
+    iframe {
+        width: 100%;
+        height: 738px;
+        @media (max-width: 900px) {
+            height: 450px;
+        }
+        @media (max-width: 640px) {
+            height: 300px;
+        }
+    }
+}

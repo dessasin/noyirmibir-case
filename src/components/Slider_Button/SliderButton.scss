@@ -1,0 +1,15 @@
+@import '../../Style/Colors.scss';
+
+.slide_button{
+    padding: 8px 23px;
+    max-height: 47px;
+    color: $primary-red;
+    background-color: $primary-rose;
+    border:none;
+    border-radius: 4px;
+
+    &-active{
+        color:$white;
+        background-color: $primary-red;
+    }
+}

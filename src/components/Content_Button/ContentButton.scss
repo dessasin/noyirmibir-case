@@ -1,0 +1,15 @@
+@import '../../Style/Colors.scss';
+.content_button{
+    color:$primary-red;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    background-color: $white;
+    padding: 1em 1.5em;
+    transition: 200ms all ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: $primary-red;
+        color:$white;
+    }
+}
